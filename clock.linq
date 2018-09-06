@@ -79,15 +79,13 @@ public class Clock
 			{
 				Minute = Minute + 1;
 				Second = 0;
-	
-
-			continue;
+				
 			}
 			if (Minute==60)
 			{
 				Hour = Hour + 1;
 				Minute = 0;
-				continue;
+				
 			}
 			if (Hour==24)
 			{
